@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-client = OpenAI(api_key='sk-None-UI1JPvUEOq3vLd1tlTONT3BlbkFJrZNtudjXirtDzDbhNO1A')
+client = OpenAI(api_key='')
 
 try:
     response = client.completions.create(engine="text-davinci-003",
