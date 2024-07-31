@@ -7,7 +7,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # Set up OpenAI API key
-api_key = os.getenv('sk-proj-HyQPdAAK54m6C94hetGKT3BlbkFJPJL4KzpheV3IQuCcbxHQ')
+api_key = os.getenv('')
 """
 
 
